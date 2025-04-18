@@ -1,0 +1,28 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore data files
+data/raw/
+data/processed/
+data/delta/
+
+# Ignore logs and mlruns
+mlruns/
+logs/
+*.log
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configs
+.idea/
