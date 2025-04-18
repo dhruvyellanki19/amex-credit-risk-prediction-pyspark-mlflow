@@ -1,0 +1,7 @@
+data:
+  raw_path: "data/raw"
+  delta_path: "data/delta"
+
+spark:
+  app_name: "AMEXDefaultPrediction"
+  master: "local[*]"
